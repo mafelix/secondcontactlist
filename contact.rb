@@ -95,5 +95,4 @@ class Contact
   end 
 end
 # p Contact.search("Hahaha","RubyProblems")
-a = Contact.new("Lol","lol@gmail.com")
-a.destroy(3)
+p Contact.destroy(3)
